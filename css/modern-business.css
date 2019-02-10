@@ -1,0 +1,88 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body 
+{
+  padding-top: 54px;
+  width:50wh;
+  height:200vh; 
+  background:linear-gradient(-45deg ,rgb(138, 80, 5),rgb(31, 62, 77),rgb(23, 39, 49),rgb(9, 128, 64),rgb(58, 12, 12));
+  background-size: 300% 250%;
+  animation: animate 15s ease infinite;
+  
+  
+}
+@keyframes animate
+	{
+		0%
+		{
+			background-position: 2% 50%;
+		}
+		50%
+		{
+			background-position:  100% 50%;
+		}
+		100%
+		{
+			background-position: 2% 50%;
+		}
+	}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.my-4
+{
+  color: rgb(45, 255, 8);
+  text-shadow: 1px 1px 2px black, 0 0 10px rgb(240, 220, 133),0 0 5px rgb(72, 72, 185);
+
+
+}
+h1.my-4
+{
+  float: center;
+}
+.welcome_name
+{
+  text-align: center;
+}
+#memories
+{
+  color: chartreuse;
+  text-shadow: 1px 1px 1px( black,0 0 0);
+}
+.card-body
+{
+  background-image: linear-gradient(to top,rgb(7, 11, 46), rgb(45, 80, 34),rgb(30, 85, 129),rgb(0,0,0));
+  color: blanchedalmond;
+}
+h4.card-title
+{
+  text-shadow: 0 2px rgb(3, 22, 48);
+  font-weight:bold;
+  color:rgb(180, 107, 11);
+}
+.card-title:hover
+{
+  color:rgb(161, 5, 18);
+
+}
