@@ -32,3 +32,27 @@ header
 	float:left;
 
 }
+footer
+{
+	background-color: dimgray;
+	color:white;
+	float:center;
+	text-align:center;
+	height:40px;
+	position: absolute;
+	padding-bottom: 0%;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+section
+{
+	height:790px;
+	background-color: lightslategrey;
+	float: center;
+	position:absolute;
+	width:100%;
+}
