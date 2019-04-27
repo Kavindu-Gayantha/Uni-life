@@ -1,0 +1,19 @@
+#header
+{
+    background-color:DarkSlateGray ;
+    color:GoldenRod;
+    font-weight: bold;
+    height:150px;
+
+
+}
+body
+{
+    background-color: black;
+}
+.header-statement
+{
+    text-align: center;
+    color:blueviolet;
+    /* background-color:yellowgreen; */
+}

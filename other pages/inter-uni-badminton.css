@@ -1,0 +1,34 @@
+header
+{
+	color:white;
+	background-color:darkslategray;
+	height:130px;
+
+
+}
+#header-statement
+{
+	text-align:center;
+}
+#header-statement2
+{
+	text-align:center;
+}
+#description
+{
+	background-color:dimgrey;
+	color:greenyellow;
+	float:center;
+	padding:15px;
+	border-color: black;
+	display:inline-block;
+	text-align: center;
+	
+
+}
+.gallery-images
+{
+	display:inline-block;
+	float:left;
+
+}
