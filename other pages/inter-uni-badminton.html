@@ -1,25 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head><title>Inter-Uni games</title>
-<link rel='stylesheet' href="inter-uni-badminton.css">
+<head>
+<style>
+.header
+ {
+  grid-area: header;
+  color:white;
+  background-color:darkslategray;
+  /*height:150px;*/
+  width:100%;
+ }
+.navigation
+{
+ grid-area: navigation;
+ background-color: blue;
+ color:white;
+ width:20%;
+ height: 720px;
+ }
+.section
+{ 
+  grid-area: section; 
+  height:720px;
+ /* background-color: lightslategrey*/;
+  float: left;
+  width:100%;
+}
+
+.footer
+ { 
+  grid-area: footer;
+  background-color: dimgray;
+  color:white;
+  float:center;
+  text-align:center;
+  height:20px;
+  padding-bottom: 0%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header '
+    'navigation section section section section section '
+    'footer footer footer footer footer footer';
+  grid-gap: 1px;
+ /* background-color: #2196F3;*/
+  /*padding: 0px;*/
+}
+.grid-container > div {
+ /* background-color: rgba(255, 255, 255, 0.8);*/
+  text-align: center;
+  padding: 20px 0;
+  font-size: 10px;
+  }
+
+}
+</style>
 </head>
 <body>
-	<header><h1 id='header-statement'>Inter University Games-2018</h1>
-			<h2 id='header-statement2'>Badminton</h2>
-	</header>
-<!-- now the section part of the website -->
-	<section>
-		<div id='description'>
-			This is the biggest tournament among universities of the year. In this year it was held in university of moratuwa indoor stadium. This is little bit about that tournament
-		</div>
-		<div class='gallery-images'>
-
-		</div>
 
 
-	</section>
-	<footer>
-		<h6>made by kavindu gayantha</h6>
-	</footer>
+
+<div class="grid-container">
+  <div class="header"><h1 id='header-statement'>Inter University Games-2018</h1>
+      <h2 id='header-statement2'>Badminton</h2>
+
+</div>
+  <div class="navigation">
+    <div id='description'>
+      This is the biggest tournament among universities of the year. In this year it was held in university of moratuwa indoor stadium. This is little bit about that tournament
+    </div>
+    
+  </div>
+  <div class="section">Main</div>  
+  
+  <div class="footer"><h6>made by kavindu gayantha</h6></div>
+</div>
+
 </body>
 </html>

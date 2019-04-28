@@ -1,24 +1,59 @@
-header
+.header /*item1*/
 {
 	color:white;
 	background-color:darkslategray;
-	height:130px;
+	/*height:130px;*/
+	grid-area: header;
+
+
+
+}
+.nav /*item 2*/
+{
+	grid-area: nav;
+	/*float: left;*/
+	height:720px;
+	background-color: black;
+	width:20%;
+	color:white;
 
 
 }
-#header-statement
+.section/*item 3 -section*/
+{
+	grid-area: section;
+	height:790px;
+	background-color: lightslategrey;
+	
+	
+}
+.footer /*item 4*/
+{
+	grid-area: footer;
+	background-color: dimgray;
+	color:white;
+	float:center;
+	text-align:center;
+	height:40px;
+	padding-bottom: 0%;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.header #header-statement
 {
 	text-align:center;
 }
-#header-statement2
+.header #header-statement2
 {
 	text-align:center;
 }
-#description
+.nav #description
 {
 	background-color:dimgrey;
 	color:greenyellow;
-	float:center;
+	
 	padding:15px;
 	border-color: black;
 	display:inline-block;
@@ -26,33 +61,39 @@ header
 	
 
 }
-.gallery-images
+.grid-container
+{
+	display:grid;
+	grid-template-areas: 
+	'header header header header header header'
+	'nav section section section section section'
+	'footer footer footer footer footer footer'
+	grid-gap:1px;
+	background-color: #;
+	padding: 1px;
+}
+.grid-container > div
+{
+	/*background-color: #*/;
+	text-align: center;
+	padding:20px 0;
+	font-size:10px;
+}
+
+
+/*.gallery-images
 {
 	display:inline-block;
 	float:left;
 
-}
-footer
-{
-	background-color: dimgray;
-	color:white;
-	float:center;
-	text-align:center;
-	height:40px;
-	position: absolute;
-	padding-bottom: 0%;
-	position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    
-}
+}*/
 
-section
+
+/*section
 {
 	height:790px;
 	background-color: lightslategrey;
 	float: center;
 	position:absolute;
 	width:100%;
-}
+}*/
