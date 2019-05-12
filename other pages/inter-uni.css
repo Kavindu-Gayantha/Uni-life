@@ -16,12 +16,12 @@
     background-color:rgba(9, 97, 75, 0.664);
     /* float:center; */
     width:72%;
-    height:100vh;
+    height:100%;
     /* position:fixed; */
     /* align-content: center; */
     margin:1;
     float:right;
-    height: fit-content;
+    /* height: fit-content; */
     
 
 }
@@ -31,9 +31,10 @@
     background-color:rgba(42, 94, 55, 0.521);
     float:left;
     width:25%;
-    height:100vh;
-    height: fit-content;
+    height:100%;
+    /* height: fit-content; */
     padding:25px;
+    padding-bottom:880px;
     /* position:fixed; */
     font-size :25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -49,6 +50,8 @@
     display: block;
     padding-top:10%;
     padding-bottom:10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     
 }
 #foot
@@ -79,9 +82,14 @@
     border-color:rgb(78, 122, 6);
     white-space: nowrap;
     padding:30px;
-    
+    margin:5px;
+ }
+ .images
+ {
+     width:500px;
+     /* height:350px; */
 
-}
+ }
 #div-of-gallery
 {
     padding-left:20%;
