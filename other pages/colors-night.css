@@ -1,0 +1,102 @@
+#header
+{
+    background-color:DarkSlateGray ;
+    /* padding:10px; */
+    font-weight: bold;
+    height:150px;
+    font-size:50px;
+    width:100%;
+    /* margin:0; */
+}
+#back-button
+{
+    float:left;
+    text-align:right:
+        
+}
+#section
+{
+    background-color:rgba(9, 97, 75, 0.664);
+    /* float:center; */
+    width:72%;
+    height:100%;
+    /* position:fixed; */
+    /* align-content: center; */
+    margin:1;
+    float:right;
+    /* height: fit-content; */
+    
+
+}
+#navigation
+{
+    /* line-height: 50px; */
+    background-color:rgba(42, 94, 55, 0.521);
+    float:left;
+    width:25%;
+    height:100%;
+    /* height: fit-content; */
+    padding:25px;
+    padding-bottom:00px;
+    /* position:fixed; */
+    font-size :25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#description
+{
+    color:rgb(4, 40, 65);
+    background-color:rgba(243, 133, 113, 0.397);
+    float:center;
+    text-align:center;
+    padding:19px;
+    display: block;
+    padding-top:10%;
+    padding-bottom:10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+#foot
+{
+    background-color:DarkSlateGray ;
+    clear:both;
+    font-weight: bold;
+    position:fixed;
+    width:100%;
+    bottom:0;
+    left:0;
+    text-align:center;
+    color:white;
+}
+.header-statement
+{
+    text-align: center;
+    color:GoldenRod;
+    /* background-color:yellowgreen; */
+}
+.gallery
+{
+    display:inline-block;
+    width:100%;
+    /* height:100px; */
+    /* border-color:black; */
+    border-style:5px solid;
+    border-color:rgb(13, 14, 12);
+    white-space: nowrap;
+    padding:30px;
+    margin:5px;
+ }
+ .images
+ {
+     width:500px;
+     /* height:350px; */
+
+ }
+#div-of-gallery
+{
+    padding-left:20%;
+    font-size:20px; 
+    white-space: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
