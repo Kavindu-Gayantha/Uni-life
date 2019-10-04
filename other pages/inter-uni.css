@@ -11,6 +11,10 @@
 
 
 }
+.container
+{
+    background-color: rgb(15, 17, 46);
+}
 #back-button
 {
     float:left;
